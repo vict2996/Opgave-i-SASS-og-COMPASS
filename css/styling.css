@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* line 17, ../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../scss/styling.scss */
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+/* line 12, ../scss/styling.scss */
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 16, ../scss/styling.scss */
+#container {
+  width: 40%;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+/* line 23, ../scss/styling.scss */
+header img {
+  width: 100%;
+}
+/* line 26, ../scss/styling.scss */
+header h1 {
+  font-size: 40px;
+  display: block;
+}
+/* line 30, ../scss/styling.scss */
+header hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 33, ../scss/styling.scss */
+header nav {
+  background-color: RGB(244, 149, 218);
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+/* line 40, ../scss/styling.scss */
+nav ul {
+  padding-left: 6%;
+}
+/* line 42, ../scss/styling.scss */
+nav ul li {
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+}
+/* line 48, ../scss/styling.scss */
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* =====MAIN===== */
+/* line 57, ../scss/styling.scss */
+main {
+  float: left;
+}
+/* line 59, ../scss/styling.scss */
+main .article2 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* line 64, ../scss/styling.scss */
+main article {
+  box-sizing: border-box;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 15px;
+  float: left;
+}
+/* line 70, ../scss/styling.scss */
+main article img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+/*===FOOTER===*/
+/* line 78, ../scss/styling.scss */
+footer {
+  width: 100%;
+}
+/* line 81, ../scss/styling.scss */
+footer div {
+  float: left;
+  margin-right: 9%;
+  margin-top: 5%;
+  margin-bottom: 15px;
+}
+
+/* line 89, ../scss/styling.scss */
+footer div:last-child {
+  margin-left: 5%;
+  border-left: 2px solid black;
+  margin-right: 0%;
+}
+
+/* line 97, ../scss/styling.scss */
+footer ul li {
+  font-size: 10px;
+  line-height: 18px;
+}
+/* line 100, ../scss/styling.scss */
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
