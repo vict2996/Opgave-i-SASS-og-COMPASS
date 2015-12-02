@@ -77,7 +77,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 16, ../scss/styling.scss */
 #container {
-  width: 40%;
+  width: 800px;
   margin: 0 auto;
   border: 2px solid black;
   border-radius: 15px;

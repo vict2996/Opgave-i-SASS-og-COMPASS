@@ -1,4 +1,35 @@
 /* line 1, ../scss/responsive.scss */
 #container {
-  width: 60%;
+  width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+  /* line 6, ../scss/responsive.scss */
+  .article1, .article2 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  /* line 12, ../scss/responsive.scss */
+  .article3 {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+  }
+
+  /* line 18, ../scss/responsive.scss */
+  footer div {
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* line 23, ../scss/responsive.scss */
+  article {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+  }
 }
